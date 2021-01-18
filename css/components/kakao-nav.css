@@ -1,0 +1,81 @@
+.kakao-nav {
+  padding: 0px 25px;
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 45px;
+  bottom: 0;
+  background-color: #181818;
+}
+
+@keyframes appearBtn {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.kakao-nav a {
+  transform: translateY(50px);
+  opacity: 0;
+  font-size: 1.4rem;
+  position: relative;
+  animation: appearBtn 0.3s ease-in-out forwards;
+}
+
+.kakao-nav a:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.kakao-nav a:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.kakao-nav a:last-child {
+  animation-delay: 0.9s;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.kakao-nav a:nth-child(2) span {
+  width: 15px;
+  height: 15px;
+  background-color: #e46344;
+  border-radius: 7px;
+  position: absolute;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -5px;
+  left: 13px;
+
+  animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+.kakao-nav a:nth-child(4) span {
+  width: 4px;
+  height: 4px;
+  background-color: #e46344;
+  border-radius: 7px;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+}

@@ -1,0 +1,38 @@
+.setting-info {
+  font-size: 20px;
+}
+
+.setting-info div span {
+  padding-left: 20px;
+}
+
+.kakao-setting__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 105px;
+  padding-left: 30px;
+}
+
+.kakao-setting__column {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.kakao-setting__icon i {
+  font-size: 1.3rem;
+}
+
+.kakao-setting__title {
+  margin-left: 20px;
+}
+
+.kakao-setting__line {
+  border-bottom: 1px solid #171717;
+}
+.kakao-setting__column-end {
+  border-bottom: 3px solid #171717;
+  margin-left: -30px;
+  margin-bottom: 15px;
+}

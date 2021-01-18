@@ -1,0 +1,130 @@
+.chatting {
+  width: 100%;
+  height: 100vh;
+  background-color: #272727;
+}
+.chatting-info {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.chatting-info div span {
+  padding-left: 20px;
+}
+
+.kakao-chatting {
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timestamp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 8px;
+  background-color: #2e2e2e;
+}
+
+.message__avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+}
+
+.message {
+  padding-left: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.message__content {
+  margin-left: 5px;
+}
+
+.message__name {
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+.message__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #383838;
+  border-radius: 12px;
+  border-top-left-radius: 0px;
+  padding: 10px 5px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.message__timestamp {
+  font-size: 8px;
+  padding-top: 45px;
+  padding-left: 5px;
+  opacity: 0.6;
+}
+
+.reply {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.reply__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #383838;
+  border-radius: 12px;
+  border-top-right-radius: 0px;
+  padding: 10px 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reply__timestamp {
+  font-size: 8px;
+  padding-top: 30px;
+  padding-right: 8px;
+  opacity: 0.6;
+}
+
+.writeboard {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.writeboard div:first-child {
+  padding-left: 15px;
+}
+
+.writeboard div:last-child {
+  padding-right: 15px;
+}
+
+.writeboard input {
+  height: 50px;
+  width: 70%;
+  background-color: #2d2d2d;
+  border: none;
+}
+
+.writeboard div i {
+  color: #686b70;
+  font-size: 1.5rem;
+}

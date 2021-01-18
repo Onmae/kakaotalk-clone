@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+@import "reset.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav.css";
+@import "components/kakao-header.css";
+@import "components/kakao-nav.css";
+@import "components/user-component.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/chatting.css";
+@import "screens/settings.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #121212;
+  color: #dbdbdb;
+  opacity: 0.8;
+}
+
+* {
+  box-sizing: border-box;
+}
